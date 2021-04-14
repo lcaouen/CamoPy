@@ -1,0 +1,34 @@
+{
+	"images": {
+		"path": "/home/pi/Public/",
+		"width": 1280,
+		"height": 720,
+		"framerate": 20,
+		"iso": 400,
+		"brightness": 70,
+		"contrast": 55,
+		"shutter_speed": 0,
+		"exposure_mode": "off",
+		"threshold": 105,
+		"detection": true
+	},
+	"oneDrive": {
+		"url": "https://api.onedrive.com/v1.0/",
+		"directory": "CamoPy",
+		"clientSecret": "xxxxxx",
+		"clientId": "xxx-xxxxx"
+	},
+	"mail": {
+		"smtpServer": "smtp",
+		"mailPort": 587,
+		"address": "xxx@xxx.com",
+		"mailPwd": "xxxx",
+		"message": ["Subject: Mouvement détecté", "", "Un mouvement a été détecté. Veuillez vérifier votre compte OneDrive"],
+		"wait": 600
+	},
+	"webService": {
+		"name": "raspberrypi",
+		"port": 8080,
+		"pwd": "xxxxx"
+	}
+}
